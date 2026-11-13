@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ahmed Elsherif — Machine Learning Engineer building practical machine learning and AI systems with Python.">
+  <meta name="theme-color" content="#101827">
+  <title>Ahmed Elsherif | Machine Learning Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home">AE<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#learning">Learning</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> MACHINE LEARNING ENGINEER · EGYPT</p>
+        <h1>Building practical<br><span>machine learning</span><br>systems.</h1>
+        <p class="hero-lede">I'm Ahmed Elsherif, a Machine Learning Engineer with a software engineering background. I build end-to-end ML workflows and deploy them as usable applications and APIs.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
+          <a class="text-link" href="mailto:ahmedelsherif.osama@gmail.com">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/ahmedelsherif-osama" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ahmed-elsherif29/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <span>Cairo, Egypt</span>
+        </div>
+      </div>
+      <aside class="hero-aside">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core-card">
+          <span class="core-label">CURRENT FOCUS</span>
+          <div class="core-symbol">ML<span>×</span>AI</div>
+          <p>From data and experimentation<br>to inference and deployment.</p>
+          <div class="core-tags"><span>Python</span><span>Scikit-learn</span><span>FastAPI</span></div>
+        </div>
+        <div class="floating-note note-top">01 / EXPERIMENT</div>
+        <div class="floating-note note-bottom">02 / BUILD & DEPLOY</div>
+      </aside>
+    </section>
+
+    <section class="intro-strip">
+      <p>My work sits at the intersection of <strong>machine learning</strong>, <strong>software engineering</strong>, and <strong>real-world problem solving</strong>.</p>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects that move<br>from idea to implementation.</h2></div>
+        <p class="section-note">A selection of independent projects exploring predictive modelling, NLP, recommendation, anomaly detection, and retrieval-augmented generation.</p>
+      </div>
+
+      <article class="featured-project">
+        <div class="project-visual visual-rag">
+          <div class="visual-top"><span>FEATURED PROJECT</span><span>01 — 05</span></div>
+          <div class="rag-flow">
+            <div class="rag-node">REFERENCE<br>DOCUMENTS</div><div class="flow-line"></div>
+            <div class="rag-node accent-node">RETRIEVAL<br>+ CONTEXT</div><div class="flow-line"></div>
+            <div class="rag-node">GROQ<br>LLM</div>
+          </div>
+          <div class="visual-caption">RETRIEVAL-AUGMENTED GENERATION</div>
+        </div>
+        <div class="featured-copy">
+          <p class="eyebrow">01 / KNOWLEDGE ASSISTANT</p>
+          <h3>Disaster Preparedness<br>Knowledge Assistant</h3>
+          <p>A Streamlit-based RAG assistant that answers disaster preparedness questions using uploaded reference documents. It retrieves relevant document context and uses an LLM to generate grounded responses.</p>
+          <ul class="project-points">
+            <li>PDF ingestion, validation, text extraction, and chunking</li>
+            <li>Google Gemini embeddings with a Chroma vector store</li>
+            <li>Groq-hosted LLM responses through a Streamlit interface</li>
+          </ul>
+          <div class="tag-list"><span>Python</span><span>RAG</span><span>LangChain</span><span>ChromaDB</span><span>Streamlit</span><span>Groq</span></div>
+          <a class="project-link" href="https://disaster-preparedness-knowledge-assistant-mbgnvaq7gv27xtzzkkdw.streamlit.app/" target="_blank" rel="noreferrer">Open live application <span>↗</span></a>
+          <a class="project-link secondary-link" href="https://github.com/ahmedelsherif-osama" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-index">02 / CLASSIFICATION</div>
+          <div class="mini-visual chart-visual"><span class="chart-bar b1"></span><span class="chart-bar b2"></span><span class="chart-bar b3"></span><span class="chart-bar b4"></span><span class="chart-line"></span></div>
+          <h3>Fraud Detection Pipeline</h3>
+          <p>An end-to-end transaction fraud classification workflow with preprocessing, feature engineering, XGBoost training, evaluation, and probability-based inference through FastAPI.</p>
+          <div class="tag-list"><span>Python</span><span>XGBoost</span><span>FastAPI</span><span>Docker</span></div>
+          <a class="project-link" href="https://fraud-detection-api-q77a.onrender.com/docs" target="_blank" rel="noreferrer">Live API documentation ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-index">03 / NATURAL LANGUAGE PROCESSING</div>
+          <div class="mini-visual nlp-visual"><span>PERSON</span><i></i><span>ORG</span><i></i><span>LOCATION</span></div>
+          <h3>Named Entity Recognition</h3>
+          <p>An NLP pipeline for extracting entities from unstructured text, covering data ingestion, BIO-tag transformation, model training, evaluation, and data-centric label improvements.</p>
+          <div class="tag-list"><span>Python</span><span>spaCy</span><span>NLP</span><span>FastAPI</span><span>Docker</span></div>
+          <a class="project-link" href="https://ner-api-vznp.onrender.com/docs" target="_blank" rel="noreferrer">Live API documentation ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-index">04 / RECOMMENDATION</div>
+          <div class="mini-visual recommend-visual"><div class="recommend-circle">TF<br>IDF</div><span class="recommend-arrow">→</span><div class="recommend-result">SIMILAR<br>ITEMS</div></div>
+          <h3>Product Recommendation System</h3>
+          <p>A content-based Amazon fashion recommender using TF-IDF and cosine similarity, served through a modular FastAPI inference service.</p>
+          <div class="tag-list"><span>Python</span><span>TF-IDF</span><span>Cosine Similarity</span><span>FastAPI</span><span>Docker</span></div>
+          <a class="project-link" href="https://amazon-fashion-recommender.onrender.com/docs" target="_blank" rel="noreferrer">Live API documentation ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-index">05 / ANOMALY DETECTION</div>
+          <div class="mini-visual anomaly-visual"><span class="point p1"></span><span class="point p2"></span><span class="point p3"></span><span class="point p4"></span><span class="point p5"></span><span class="point p6"></span><span class="point p7"></span><span class="point outlier"></span><span class="anomaly-axis"></span></div>
+          <h3>Trading Behaviour Anomaly Detection</h3>
+          <p>An unsupervised workflow applying Isolation Forest to behavioural features such as trading frequency, volume, average trade size, and temporal activity.</p>
+          <div class="tag-list"><span>Python</span><span>Scikit-learn</span><span>Isolation Forest</span><span>Feature Engineering</span></div>
+          <a class="project-link" href="https://github.com/ahmedelsherif-osama" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+        </article>
+      </div>
+      <p class="small-disclaimer">Project links currently point to live API documentation or my GitHub profile where a dedicated repository URL has not yet been added.</p>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading">
+        <div><p class="eyebrow">BACKGROUND</p><h2>Engineering mindset.<br>Operational perspective.</h2></div>
+        <p class="section-note">A path through software development and operations that shaped how I approach practical technical problems.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">FEB 2026 — PRESENT</div>
+          <div><h3>Machine Learning Engineer · Independent Projects</h3><p class="timeline-org">Self-directed / Freelance</p><p>Building end-to-end machine learning projects, including predictive models, NLP workflows, recommendation systems, anomaly detection, and deployed inference services.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">FEB 2025 — FEB 2026</div>
+          <div><h3>Software Engineer / Flutter Developer</h3><p class="timeline-org">Teqneia ICT · Cairo, Egypt</p><p>Developed and maintained production Flutter applications, integrated 80+ REST APIs, and worked on multi-module healthcare, marketplace, and booking systems. Implemented localization, caching, and real-time synchronization.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">JUL 2015 — JAN 2025</div>
+          <div><h3>Operations, Logistics & Inventory Roles</h3><p class="timeline-org">Talabat · Dyson · Azadea Group · UAE & Egypt</p><p>Worked across logistics, inventory, sales, and operations. Built internal automation and reporting tools and translated operational requirements into practical process improvements.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section learning-section" id="learning">
+      <div class="section-heading">
+        <div><p class="eyebrow">CONTINUOUS LEARNING</p><h2>Learning with<br>hands-on application.</h2></div>
+        <p class="section-note">Developing deeper foundations in machine learning while expanding cloud and data skills.</p>
+      </div>
+      <div class="learning-grid">
+        <div class="learning-card current"><span class="learning-status">IN PROGRESS</span><h3>Machine Learning Zoomcamp</h3><p>Practical machine learning coursework and hands-on projects.</p><span class="learning-source">DataTalks.Club</span></div>
+        <div class="learning-card"><span class="learning-status completed">COMPLETED · OCT 2026</span><h3>AWS 1: Intro to Cloud Computing</h3><p>Cloud fundamentals, core AWS services, and the AWS Well-Architected Framework.</p><span class="learning-source">Manara</span></div>
+        <div class="learning-card"><span class="learning-status completed">COMPLETED · JUL 2026</span><h3>Feature Engineering</h3><p>Coursework focused on feature engineering techniques for machine learning.</p><span class="learning-source">Kaggle</span></div>
+        <div class="learning-card"><span class="learning-status completed">CERTIFICATE</span><h3>Fullstack Development</h3><p>Fullstack development bootcamp.</p><span class="learning-source"><a href="https://www.credential.net/5f2c9248-753c-4c84-92e7-dde23847c80f#acc.IY1bChxv" target="_blank" rel="noreferrer">Astrolabs · View credential ↗</a></span></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <p class="eyebrow">TOOLKIT</p><h2>Tools I work with.</h2>
+      <div class="skills-grid">
+        <div><h3>Programming & Data</h3><p>Python · SQL · Pandas · NumPy · Data Cleaning · EDA</p></div>
+        <div><h3>Machine Learning</h3><p>Scikit-learn · XGBoost · Feature Engineering · Model Evaluation · Classification · Recommendation · Anomaly Detection · NLP</p></div>
+        <div><h3>Deployment & APIs</h3><p>FastAPI · REST APIs · Docker · Streamlit · Inference Pipelines</p></div>
+        <div><h3>Tools & Platforms</h3><p>Git · GitHub · Jupyter Notebook · VS Code · ChromaDB · LangChain</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have a problem worth<br><span>building for?</span></h2>
+      <p>I'm open to machine learning, AI engineering, and technology-for-development opportunities.</p>
+      <a class="button button-light" href="mailto:ahmedelsherif.osama@gmail.com">Email Ahmed <span>↗</span></a>
+      <div class="contact-links"><a href="https://github.com/ahmedelsherif-osama" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/ahmed-elsherif29/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Ahmed Elsherif</span><span>Built with HTML & CSS · Hosted on GitHub Pages</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
